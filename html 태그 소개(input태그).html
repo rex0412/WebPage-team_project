@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>html 태그 소개</title>
+        <style>
+            hr {
+                height: 5px;
+                background-color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div style="text-align:center"><h1>html 태그 소개</h1></div>
+
+        <hr>
+
+        <h4> input 태그 </h4>
+
+        <p> &lt;input&gt; :  form의 요소중 하나. </p>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;사용자가 정보를 입력하는 부분을 만들어야 할 때 사용한다. </p>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;type에 따라 어떤 형식으로 정보를 받을지 결정된다. </p>  
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;id 값을 통해 서로 구분할 수도 있다. </p>
+        <p> &nbsp;&nbsp;&nbsp; ex) &lt;input type="유형" name="속성값" id= "이름" value="초기값"&gt; </p>
+
+        <br>
+
+        <h4>속성 값</h4>
+
+        <p> type 속성 : 입력 요소의 유형. </p>
+        <p> value 속성 : 입력 요소의 초기값. 사용자가 변경 가능. </p>
+        <p> name 속성 : 입력 요소의 이름. 서버로 변수의 이름처럼 전달. </p>
+        <p> autocomplete 속성 : 자동 입력 완성. </p>
+        <p> autofocus 속성 : 페이지 로드 시 자동으로 입력 포커스.(페이지를 불러오자 마자 특정 부분에 마우스 커서가 표시되도록 하는 것) </p>
+        <p> placeholder 속성 : 입력 힌트를 희미하게 보여줌.(힌트 표시[필드 클릭 시 내용 사라짐]) </p>
+        <p> readonly 속성 : 읽기 전용 필드. </p>
+        <p> required 속성 : 반드시 채워져 있어야 함.(필수 입력 창[빈 칸이면 안 넘어감])</p>
+        <p> pattern 속성 : 허용하는 입력 형태를 정규식으로 지정. </p>
+        <p> max 속성 : &lt;input&gt; 필드의 최대값 지정. </p>
+        <p> min 속성 : &lt;input&gt; 필드의 최소값 지정. </p>
+        <p> maxLength 속성 : 텍스트 필드에 최대로 입력할 수 있는 문자의 개수 지정. </p>
+        <p> step 속성 : 숫자의 간격 설정 </p>
+
+        <br>
+
+        <p> &lt;input&gt;이 date, datetime, datetime-local, month, week, time, number, range일 경우만 사용 가능. </p>
+
+        <br>
+
+        <h4>type 유형</h4>
+
+        <p> hidden : 서버로 보내는 값들을 보내는 필드.(사용자에게는 안 보임) </p>
+        <p> text : 한 줄짜리 텍스트를 입력할 수 있는 텍스트 상자. </p>
+        <p> search : 검색 상자. </p>
+        <p> tel : 전화번호 입력 필드. </p>
+        <p> url : url 주소 입력 필드. </p>
+        <p> email : 메일 주소 입력 필드. </p>
+        <p> password : 비밀번호 입력 필드. </p>
+        <p> number : 숫자를 조절할 수 있는 화살표. </p>
+        <p> range : 숫자를 조절할 수 있는 슬라이드 막대. </p>
+        <p> color : 색상표. </p>
+        <p> checkbox : 체크 박스.(2개 이상 선택 가능) </p>
+        <p> radio : 라디오 버튼.(1개만 선택 가능) </p>
+        <p> datetime : 국제 표준시(UTC)로 설정된 날짜와 시간.(연, 월, 일, 시, 분, 초, 분할 초) </p>
+        <P> datetime-local : 사용자가 있는 지역을 기준으로 한 날짜와 시간.(연, 월, 일, 시, 분, 초, 분할 초) </P>
+        <P> date : 사용자 지역을 기준으로 한 날짜.(연, 월, 일) </P>
+        <p> month :	사용자 지역을 기준으로 한 날짜.(연, 월) </p>
+        <p> week : 사용자 지역을 기준으로 한 날짜.(연, 주) </p>
+        <p> time : 사용자 지역을 기준으로 한 시간.(시, 분, 초, 분할 초) </p>
+        <p> button : 버튼. </p>
+        <p> file : 파일을 첨부할 수 있는 버튼. </p>
+        <p> submit : 서버 전송 버튼. </p>
+        <p> image submit : 버튼 대신 사용할 이미지. </p>
+        <p> reset : 리셋 버튼 </p>
+
+        <hr>
+    </body>
+</html>
