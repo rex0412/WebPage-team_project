@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html 태그 소개</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        body {
+            background-color: #F2EDD7;
+            color: #755139;
+        }
+
+        #head {
+            font-size: 45px;
+            color: #DCE2F0
+        }
+
+        body {
+            font-family: 'Gowun Dodum', sans-serif;
+            color: #755139;
+        }
+
+        hr {
+                height: 5px;
+                background-color: #755139;
+            }
+
+        /* 가로 정렬 */
+        .ex, #p2 {
+            float: left;
+        }
+
+        /* 이미지 가운데 정렬 */
+        .ex_img {
+            text-align: center;
+            float: left;
+        }
+        
+        .break {
+            float: left;
+            width: 50px;
+        }
+
+
+        /* 제목 글씨 크기 바꾸기 */
+        #p1 {
+            font-size: 50px;
+        }
+
+        /* 예시 문구 위 공백 */
+        #p2 {
+            float: left;
+            width: 250px;
+        }
+
+         /* 선 가로 크기 지정 */
+        .hr1 {
+            width: 700px;
+        }
+
+        /* 이미지 크기 */ 
+        .img1 {
+            height: 276px;
+            width: 610px;
+        }
+
+         /* 예시 문구 옆 공백 */
+        #p4 {
+            height: 100px;
+        }
+
+        /* 예시 문구 아래 공백 */
+        #p5 {
+            clear: left;
+            height: 100px;
+        }
+
+        /* 전체 p태그에 20px 넣기 */
+        p {
+            font-size: 20px;
+        }
+
+        #p3 {
+            font-size: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <p id="head" style="text-align: center;"><span style="border-radius: 5px;padding: 0.6em 1em;background: #755139;">HTML</span></p> <!--제목-->
+
+    <hr>
+
+    <h1> &lt;!doctype&gt; </h1>
+    <p>문서 유형을 지정하는 것입니다. 웹 브라우저가 페이지를 어떻게 해석해야 하는지 알려줍니다.</p>
+    
+    <hr>
+
+    <p id="p4"></p> <!-- 세로 공백 -->
+
+    <p id="p2">  </p> <!-- 가로 공백 -->
+    
+    <div class="ex"> <hr class="hr1"> <br> . <br> . <br> . <br> <p> &lt;!doctype html&gt; <br> 예시 문구입니다. <br> <br> . <br> . <br> . <br> <hr class="hr1">  </p>   </div>   <!-- 예시 코드 -->
+
+    <p class="break"> </p> <!-- 공백 -->
+
+    <p id="p5"></p>  <!-- 공백 -->
+
+    <hr>
+
+</body>
+</html>
